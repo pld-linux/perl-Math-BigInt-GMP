@@ -8,13 +8,13 @@
 Summary:	Math::BigInt::GMP - use the GMP library for Math::BigInt routines
 Summary(pl):	Math::BigInt::GMP - wykorzystanie biblioteki GMP do funkcji Math::BigInt
 Name:		perl-Math-BigInt-GMP
-Version:	1.14
+Version:	1.15
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3067740831f9b47ed8ae852753c411c6
+# Source0-md5:	5161bbb85b5e19e877ffeb7a57766cab
 BuildRequires:	gmp-devel
 BuildRequires:	perl-Math-BigInt >= 1.64
 BuildRequires:	perl(Math::BigFloat) >= 1.38
