@@ -10,6 +10,7 @@ Summary(pl):	Math::BigInt::GMP - wykorzystanie biblioteki GMP do funkcji Math::B
 Name:		perl-Math-BigInt-GMP
 Version:	1.14
 Release:	1
+# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
