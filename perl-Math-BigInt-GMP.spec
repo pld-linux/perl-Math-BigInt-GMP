@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	BigInt-GMP
+%define		pdir	Math
+%define		pnam	BigInt-GMP
 Summary:	Math::BigInt::GMP - use the GMP library for Math::BigInt routines
 Summary(pl):	Math::BigInt::GMP - wykorzystanie biblioteki GMP do funkcji Math::BigInt
 Name:		perl-Math-BigInt-GMP
