@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	BigInt-GMP
 Summary:	Math::BigInt::GMP - use the GMP library for Math::BigInt routines
-Summary(pl):	Math::BigInt::GMP - wykorzystanie biblioteki GMP do funkcji Math::BigInt
+Summary(pl.UTF-8):   Math::BigInt::GMP - wykorzystanie biblioteki GMP do funkcji Math::BigInt
 Name:		perl-Math-BigInt-GMP
 Version:	1.18
 Release:	1
@@ -29,13 +29,13 @@ Math::GMP, but provides it's own XS layer to access the GMP C-library.
 This cuts out another (perl sub routine) layer and also reduces the
 memory footprint by not loading Math::GMP and Carp at all.
 
-%description -l pl
-Math::BigInt::GMP dostarcza obs³ugê obliczeñ na wielkich liczbach
-ca³kowitych z wykorzystaniem funkcjonalno¶ci biblioteki C GMP. Modu³
-ten ju¿ nie u¿ywa Math::GMP, ale dostarcza w³asn± warstwê XS do
-odwo³ywania siê do biblioteki GMP w C. Dziêki temu nie ma kolejnej
-warstwy (podprocedury Perla), a wykorzystanie pamiêci jest mniejsze
-dziêki nie wczytywaniu modu³ów Math::GMP i Carp.
+%description -l pl.UTF-8
+Math::BigInt::GMP dostarcza obsÅ‚ugÄ™ obliczeÅ„ na wielkich liczbach
+caÅ‚kowitych z wykorzystaniem funkcjonalnoÅ›ci biblioteki C GMP. ModuÅ‚
+ten juÅ¼ nie uÅ¼ywa Math::GMP, ale dostarcza wÅ‚asnÄ… warstwÄ™ XS do
+odwoÅ‚ywania siÄ™ do biblioteki GMP w C. DziÄ™ki temu nie ma kolejnej
+warstwy (podprocedury Perla), a wykorzystanie pamiÄ™ci jest mniejsze
+dziÄ™ki nie wczytywaniu moduÅ‚Ã³w Math::GMP i Carp.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
