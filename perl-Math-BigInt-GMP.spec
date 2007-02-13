@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	BigInt-GMP
 Summary:	Math::BigInt::GMP - use the GMP library for Math::BigInt routines
-Summary(pl.UTF-8):   Math::BigInt::GMP - wykorzystanie biblioteki GMP do funkcji Math::BigInt
+Summary(pl.UTF-8):	Math::BigInt::GMP - wykorzystanie biblioteki GMP do funkcji Math::BigInt
 Name:		perl-Math-BigInt-GMP
 Version:	1.18
 Release:	1
