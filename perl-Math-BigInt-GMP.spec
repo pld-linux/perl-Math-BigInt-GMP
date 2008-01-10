@@ -44,6 +44,7 @@ dzięki nie wczytywaniu modułów Math::GMP i Carp.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
