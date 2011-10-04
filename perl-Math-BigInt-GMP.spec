@@ -9,7 +9,7 @@ Summary:	Math::BigInt::GMP - use the GMP library for Math::BigInt routines
 Summary(pl.UTF-8):	Math::BigInt::GMP - wykorzystanie biblioteki GMP do funkcji Math::BigInt
 Name:		perl-Math-BigInt-GMP
 Version:	1.24
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
