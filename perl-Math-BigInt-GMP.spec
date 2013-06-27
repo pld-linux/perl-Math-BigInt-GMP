@@ -17,10 +17,10 @@ Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.t
 # Source0-md5:	d11bf69c0471e38191f33144079d0373
 URL:		http://search.cpan.org/dist/Math-BigInt-GMP/
 BuildRequires:	gmp-devel
-BuildRequires:	perl-Math-BigInt >= 1.76
+BuildRequires:	perl-Math-BigInt >= 1.997
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-Requires:	perl-Math-BigInt >= 1.76
+Requires:	perl-Math-BigInt >= 1.997
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -66,4 +66,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Math/BigInt/GMP
 %{perl_vendorarch}/auto/Math/BigInt/GMP/GMP.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Math/BigInt/GMP/GMP.so
-%{_mandir}/man3/*
+%{_mandir}/man3/Math::BigInt::GMP.3pm*
