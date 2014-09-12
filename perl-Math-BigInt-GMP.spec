@@ -64,6 +64,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc BUGS CHANGES CREDITS LICENSE README TODO
 %{perl_vendorarch}/Math/BigInt/GMP.pm
 %dir %{perl_vendorarch}/auto/Math/BigInt/GMP
-%{perl_vendorarch}/auto/Math/BigInt/GMP/GMP.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Math/BigInt/GMP/GMP.so
 %{_mandir}/man3/Math::BigInt::GMP.3pm*
